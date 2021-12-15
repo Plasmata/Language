@@ -1,8 +1,7 @@
 {
-  "prefix": {
-    "success": "§l§a» §r§7{%0}",
-    "error": "§l§c» §r§7{%0}",
-    "other": "§l§6» §r§7{%0}"
+  "prefix.success": "§l§a» §r§7{%0}",
+  "prefix.error": "§l§c» §r§7{%0}",
+  "prefix.other": "§l§6» §r§7{%0}"
   },
   "language": "DEUTSCH"
 }
