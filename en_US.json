@@ -12,5 +12,6 @@
     "command": {
       "success": "You successfully changed your language to §6%0§7."
     }
-  }
+  },
+  "help": "§8─────────────────────╣ §5PLASMATA §8╠─────────────────────\n§8§l » §r§7Discord: §6discord.plasmata.net\n§8§l » §r§7Email: §6support@plasmata.net\n§8§l » §r§7Homepage: §6plasmata.net\n§8─────────────────────────────────────────────────────────────"
 }
