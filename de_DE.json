@@ -1,10 +1,5 @@
 {
   "name": "Deutsch",
-  "prefix": {
-    "success": "§l§a» §r§7{%0}",
-    "error": "§l§c» §r§7{%0}",
-    "other": "§l§6» §r§7{%0}"
-  },
   "description": {
     "language": "Ändere deine aktuelle Sprache",
     "gamemode": "Ändere deinen und andere Spielmodi"

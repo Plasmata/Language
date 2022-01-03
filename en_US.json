@@ -1,10 +1,5 @@
 {
   "name": "English (United States)",
-  "prefix": {
-    "success": "§l§a» §r§7{%0}",
-    "error": "§l§c» §r§7{%0}",
-    "other": "§l§6» §r§7{%0}"
-  },
   "description": {
     "language": "Change your current Language",
     "gamemode": "Change your and other Gamemodes"
