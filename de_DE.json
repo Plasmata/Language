@@ -1,6 +1,21 @@
 {
   "name": "Deutsch",
-  "prefix.success": "§l§a» §r§7{%0}",
-  "prefix.error": "§l§c» §r§7{%0}",
-  "prefix.other": "§l§6» §r§7{%0}"
+  "prefix": {
+    "success": "§l§a» §r§7{%0}",
+    "error": "§l§c» §r§7{%0}",
+    "other": "§l§6» §r§7{%0}"
+  },
+  "description": {
+    "language": "Ändere deine aktuelle Sprache",
+    "gamemode": "Ändere deinen und andere Spielmodi"
+  },
+  "language": {
+    "form": {
+      "title": "Sprachauswahl",
+      "selection": "Klicken um auszuwählen"
+    },
+    "command": {
+      "success": "Du hast deine Sprache erfolgreich auf §6%0§7 gesetzt."
+    }
+  }
 }
