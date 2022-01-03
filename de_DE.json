@@ -3,7 +3,7 @@
   "description": {
     "language": "Ändere deine aktuelle Sprache",
     "gamemode": "Ändere deinen und andere Spielmodi"
-
+    "help": "Zeigt dir die Hilfsseite"
   },
   "language": {
     "form": {
@@ -14,5 +14,5 @@
       "success": "Du hast deine Sprache erfolgreich auf §6%0§7 gesetzt."
     }
   },
-  "help": "§8─────────────────────╣ §5PLASMATA §8╠─────────────────────\n§8§l » §r§7Discord: §6discord.plasmata.net\n§8§l » §r§7Email: §6support@plasmata.net\n§8§l » §r§7Homepage: §6plasmata.net\n§8─────────────────────────────────────────────────────────────"
+  "help": "\n§8----------| §5Plasmata §8|---------\n§8§l » §r§7Discord: §6discord.plasmata.net\n§8§l » §r§7Email: §6support@plasmata.net\n§8§l » §r§7Homepage: §6plasmata.net\n§8----------------------------\n"
 }
