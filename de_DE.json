@@ -7,7 +7,7 @@
   "language": {
     "form": {
       "title": "Sprachauswahl",
-      "selection": "Klicken um auszuwählen"
+      "selection": "Klicken um diese Sprache zu wählen"
     },
     "command": {
       "success": "Du hast deine Sprache erfolgreich auf §6%0§7 gesetzt."

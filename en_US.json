@@ -1,16 +1,16 @@
 {
   "name": "English (United States)",
   "description": {
-    "language": "Change your current Language",
-    "gamemode": "Change your and other Gamemodes"
+    "language": "Change your current language",
+    "gamemode": "Change your and other gamemodes"
   },
   "language": {
     "form": {
       "title": "Language Selection",
-      "selection": "Click to select this Language"
+      "selection": "Click to select this language"
     },
     "command": {
-      "success": "You successfully changed your Language to §6%0§7."
+      "success": "You successfully changed your language to §6%0§7."
     }
   }
 }
