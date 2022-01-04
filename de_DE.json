@@ -2,8 +2,27 @@
   "name": "Deutsch",
   "description": {
     "language": "Ändere deine aktuelle Sprache",
-    "gamemode": "Ändere deinen und andere Spielmodi"
-    "help": "Zeigt dir die Hilfsseite"
+    "gamemode": "Ändere deinen und andere Spielmodi",
+    "help": "Zeigt dir die Hilfsseite",
+    "group": "Verwalte Gruppen die Berechtigungen für den Server bereitstellen",
+    "coins": "Zeigt deinen oder andere Coinstände",
+    "world": "Verwalte Welten und ihre Generation",
+    "ping": "Zeigt deinen aktuellen Ping zu dem Server"
+  },
+  "not_found": "Der Spieler §6%0 §7ist nicht online oder konnte nicht gefunden werden.",
+  "manager": {
+    "commands": {
+      "help": "\n§8----------| §5Plasmata §8|---------\n§8§l » §r§7Discord: §6discord.plasmata.net\n§8§l » §r§7Email: §6support@plasmata.net\n§8§l » §r§7Homepage: §6plasmata.net\n§8----------------------------\n",
+      "gamemode": {
+        "usage": "Nutzung: §6/gamemode <survival|creative|adventure|spectator> [target: player]",
+        "invalid": "Der Spielmodus §6%0 §7konnte nicht gefunden werden",
+        "success": {
+          "self": "Du hast deinen Spielmodus erfolgreich auf §6%0§7 gesetzt.",
+          "other": "Du hast den Spielmodus von §6%0 §7erfolgreich auf §6%1§7 gesetzt.",
+          "by_other": "Dein Spielmodus wurde von §6%1 §7auf §6%0§7 gesetzt."
+        }
+      }
+    }
   },
   "language": {
     "form": {
@@ -14,5 +33,10 @@
       "success": "Du hast deine Sprache erfolgreich auf §6%0§7 gesetzt."
     }
   },
-  "help": "\n§8----------| §5Plasmata §8|---------\n§8§l » §r§7Discord: §6discord.plasmata.net\n§8§l » §r§7Email: §6support@plasmata.net\n§8§l » §r§7Homepage: §6plasmata.net\n§8----------------------------\n"
+  "gamemode": {
+    "survival": "Überleben",
+    "creative": "Kreativ",
+    "adventure": "Abendteuer",
+    "spectator": "Beobachter"
+  }
 }

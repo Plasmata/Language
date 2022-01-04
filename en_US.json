@@ -3,7 +3,35 @@
   "description": {
     "language": "Change your current language",
     "gamemode": "Change your and other gamemodes",
-    "help": "Displays the help page"
+    "help": "Displays the help page",
+    "group": "Manage the groups providing permissions on the server",
+    "coins": "Displays your or other current coin balance",
+    "world": "Manages worlds and their generation",
+    "ping": "Displays your current ping to the server"
+  },
+  "invalid_command": "Command §6%0 §7could not be found.",
+  "not_found": "Player §6%0 §7is not online or could not be found.",
+  "no_permission": "You're lacking the permission §6%0§7 for this action.",
+  "manager": {
+    "commands": {
+      "help": "\n§8----------| §5Plasmata §8|---------\n§8§l » §r§7Discord: §6discord.plasmata.net\n§8§l » §r§7Email: §6support@plasmata.net\n§8§l » §r§7Homepage: §6plasmata.net\n§8----------------------------\n\n",
+      "gamemode": {
+        "usage": "Usage: §6/gamemode <survival|creative|adventure|spectator> [target: player]",
+        "invalid": "Gamemode §6%0 §7could not be found",
+        "success": {
+          "self": "You successfully changed your gamemode to §6%0§7.",
+          "other": "You successfully changed the gamemode of §6%0 §7to §6%1§7.",
+          "by_other":  "Your gamemode was changed to §6%1 §7by §6%0§7."
+        }
+      },
+      "serverinfo": "\n§8-------------| §5Plasmata §8|------------\n§8 » §r§7Server Motd: §6%0\n§8 » §r§7Memory Usage: §6%1 Megabytes\n§8 » §r§7Server Usage: §6%2 §7TPS, §6%3%\n§8 » §r§7Plugins: §6%4\n§8----------------------------------\n\n",
+      "ping": "Your network ping is currently at §6%0§7ms",
+      "msg": {
+        "usage": "Usage: §6/msg <player: target> <message: string>",
+        "self": "You cannot send direct messages to yourself",
+        "format": "§8[§r%0 §r§6-> §r%1§r§8] §r%2"
+      }
+    }
   },
   "language": {
     "form": {
@@ -14,5 +42,23 @@
       "success": "You successfully changed your language to §6%0§7."
     }
   },
-  "help": "\n§8----------| §5Plasmata §8|---------\n§8§l » §r§7Discord: §6discord.plasmata.net\n§8§l » §r§7Email: §6support@plasmata.net\n§8§l » §r§7Homepage: §6plasmata.net\n§8----------------------------\n"
+  "gamemode": {
+    "survival": "Survival",
+    "creative": "Creative",
+    "adventure": "Adventure",
+    "spectator": "Spectator"
+  },
+  "coinsystem": {
+    "commands": {
+      "coins": {
+        "self": "You currently have §6%0 §7Coins.",
+        "changed": "The player §6%0 §7currently has §6%1 §7Coins."
+      }
+    }
+  },
+  "groupsystem": {
+    "commands": {
+
+    }
+  }
 }
