@@ -7,7 +7,12 @@
     "group": "Manage the groups providing permissions on the server",
     "coins": "Displays your or other current coin balance",
     "world": "Manages worlds and their generation",
-    "ping": "Displays your current ping to the server"
+    "ping": "Displays your current ping to the server",
+    "clear": "Clears your or other player's inventory",
+    "invsee": "Visit player inventories",
+    "vanish": "Go invisible and hide from others",
+    "msg": "Sends a private message to a target player",
+    "reply": "Replies to the last player a private message was received from"
   },
   "invalid_command": "Command §6%0 §7could not be found.",
   "not_found": "Player §6%0 §7is not online or could not be found.",
@@ -30,6 +35,19 @@
         "usage": "Usage: §6/msg <player: target> <message: string>",
         "self": "You cannot send direct messages to yourself",
         "format": "§8[§r%0 §r§6-> §r%1§r§8] §r%2"
+      },
+      "invsee": {
+        "usage": "Usage: §6/invsee <player: target>",
+        "menu": {
+          "name": "§6%0§8's Inventory"
+        }
+      },
+      "clear": {
+        "success": {
+          "self": "You successfully cleared §6%0 §7items from your inventory.",
+          "other": "You successfully cleared §6%1 §7items from §6%0§7's inventory.",
+          "by_other": "Your inventory was cleared by §6%0 §7and §6%1 §7items were removed"
+        }
       }
     }
   },
